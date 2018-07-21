@@ -61,49 +61,33 @@ a:hover {color:#0379C4}
 	overflow: hidden;
 }
 .related-post-style-3 .related-post-item {
-	float: left;
-	width: 23.5%;
-	height: auto;
-	margin-right: 2%;
 	margin-bottom: 10px;
-}
-.related-post-style-3 .related-post-item:nth-of-type(4n+0) {
-	margin-right: 0;
 }
 .related-post-style-3 .related-post-item:hover {
 	opacity: 0.7;
 }
 .related-post-style-3 .related-post-item-thumbnail {
-    display: block;
-    max-height: none;
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    max-width: 100%;
-	height: auto;
+	display: block;
+	max-height: none;
+	background-color: transparent;
+	border: none;
+	padding: 0;
+	max-width: 100%;
+	height: 60px;
+	width: 60px;
+	float: left;
+	margin-right: 10px;
+	border-radius: 3px;
 }
 .related-post-style-3 .related-post-item-title {
 	color: #444;
 }
 .related-post-style-3 .related-post-item-tooltip {
-    padding: 10px 0;
+    padding: 0 0;
 }
 .related-post-item-tooltip .related-post-item-title {
     font-weight: 500;
     display: block;
-}
-
-@media only screen and (max-width:480px){
-	.related-post-style-3 .related-post-item {
-		width: 48%;
-		margin-right: 4%;
-	}
-	.related-post-style-3 .related-post-item:nth-of-type(2n+0) {
-		margin-right: 0;
-	}
-	.related-post-style-3 .related-post-item:nth-of-type(2n+1) {
-		clear: both;
-	}
 }
 /* ==== Related Post Widget End ==== */
 </style>
@@ -124,7 +108,7 @@ function getQueryVariable(variable) {
 var labelArray = [],
     relatedPostConfig = {
 		homePage: getQueryVariable("url"),
-        numPosts: 8,
+        numPosts: 4,
         summaryLength: 100,
         widgetStyle: 3,
         callBack: function() {
