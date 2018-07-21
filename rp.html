@@ -118,9 +118,11 @@ function getQueryVariable(variable) {
 var labelArray = [],
     relatedPostConfig = {
 		homePage: getQueryVariable("url"),
-        numPosts: 6,
+		widgetTitle: &quot;&lt;div class='label-line-c'&gt;&lt;h4&gt;Related Posts&lt;/h4&gt;&lt;/div&gt;&quot;,
+        numPosts: 4,
         summaryLength: 100,
         widgetStyle: 3,
+		thumbnailSize: 250,
         callBack: function() {
             var $container = $('#' + this.containerId + ' > ul'),
                 $list = $container.find('li'),
