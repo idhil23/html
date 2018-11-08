@@ -1,5 +1,5 @@
 'use strict';
-var _0x6344 = ['display', 'inline-block', 'css', '#cinemapro', '', 'html', 'length', 'href', 'location', '', 'ready', 'head', 'getElementsByTagName', '<h4>Series Lainnya :</h4>', '', 'auto', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAA3NCSVQICAjb4U/gAAAADElEQVQImWOor68HAAL+AX7vOF2TAAAAAElFTkSuQmCC', 'related-post', 'Baca Selengkapnya', 'undefined', 'script', 'createElement', 'type', 'text/javascript', 'src', 'appendChild', 'random', 'floor', 'object', '/-/', '', '$t', 'openSearch$totalResults', 'feed', 'numPosts', 'replace', 'homePage', '/feeds/posts/summary', '?alt=json-in-script&orderby=updated&start-index=', '&max-results=', '&callback=showRelatedPost', 'containerId', 'getElementById', 'entry', 'widgetStyle', 'widgetTitle', '<ul>', 'newTabLink', ' target="_blank"', '<span class="clear"></span>', 'title', 'titleLength', 'substring', '&hellip;', 'media$thumbnail', 'thumbnailSize', '/s', '-c', 'url', 'noImage', 'summary', 'summaryLength', ' ', 'link', 'rel', 'alternate', '#', '<li><img alt="', '" class="related-post-item-thumbnail" src="', '" style="width:', ';height:', '" title="', '"><a class="related-post-item-title" title="', '" href="', '"', '>', '</a><span class="related-post-item-summary"><span class="related-post-item-summary-text">', '</span> <a href="', '" class="related-post-item-more"', 'moreText', '</a></span>', '</li>', '<li class="related-post-item" tabindex="0"><a class="related-post-item-title" href="', '><img alt="', '"></a><div class="related-post-item-tooltip"><a class="related-post-item-title" title="', '</a></div>', '<li class="related-post-item" tabindex="0"><a class="related-post-item-wrapper" href="', '"><span class="related-post-item-tooltip">', '</span></a>', '<li><a class="related-post-item-title" title="', '</a><div class="related-post-item-tooltip"><img alt="', '"><span class="related-post-item-summary"><span class="related-post-item-summary-text">', '</span></span>', '</div></li>', '<li><a title="', '</a></li>', 'innerHTML', '</ul>', 'callBack', '?alt=json-in-script&orderby=updated&max-results=0&callback=randomRelatedIndex'];
+var _0x6344 = ['display', 'inline-block', 'css', '#cinemapro', '<a expr:href='data:blog.canonicalHomepageUrl' expr:title='data:blog.title'><data:blog.title/></a>.', 'html', 'length', 'href', 'location', '<data:blog.canonicalHomepageUrl/>', 'ready', 'head', 'getElementsByTagName', '<h4>Series Lainnya :</h4>', '<data:blog.canonicalHomepageUrl/>', 'auto', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAA3NCSVQICAjb4U/gAAAADElEQVQImWOor68HAAL+AX7vOF2TAAAAAElFTkSuQmCC', 'related-post', 'Baca Selengkapnya', 'undefined', 'script', 'createElement', 'type', 'text/javascript', 'src', 'appendChild', 'random', 'floor', 'object', '/-/', '', '$t', 'openSearch$totalResults', 'feed', 'numPosts', 'replace', 'homePage', '/feeds/posts/summary', '?alt=json-in-script&orderby=updated&start-index=', '&max-results=', '&callback=showRelatedPost', 'containerId', 'getElementById', 'entry', 'widgetStyle', 'widgetTitle', '<ul>', 'newTabLink', ' target="_blank"', '<span class="clear"></span>', 'title', 'titleLength', 'substring', '&hellip;', 'media$thumbnail', 'thumbnailSize', '/s', '-c', 'url', 'noImage', 'summary', 'summaryLength', ' ', 'link', 'rel', 'alternate', '#', '<li><img alt="', '" class="related-post-item-thumbnail" src="', '" style="width:', ';height:', '" title="', '"><a class="related-post-item-title" title="', '" href="', '"', '>', '</a><span class="related-post-item-summary"><span class="related-post-item-summary-text">', '</span> <a href="', '" class="related-post-item-more"', 'moreText', '</a></span>', '</li>', '<li class="related-post-item" tabindex="0"><a class="related-post-item-title" href="', '><img alt="', '"></a><div class="related-post-item-tooltip"><a class="related-post-item-title" title="', '</a></div>', '<li class="related-post-item" tabindex="0"><a class="related-post-item-wrapper" href="', '"><span class="related-post-item-tooltip">', '</span></a>', '<li><a class="related-post-item-title" title="', '</a><div class="related-post-item-tooltip"><img alt="', '"><span class="related-post-item-summary"><span class="related-post-item-summary-text">', '</span></span>', '</div></li>', '<li><a title="', '</a></li>', 'innerHTML', '</ul>', 'callBack', '?alt=json-in-script&orderby=updated&max-results=0&callback=randomRelatedIndex'];
 'use strict';
 var _0x760d = [_0x6344[0], _0x6344[1], _0x6344[2], _0x6344[3], _0x6344[4], _0x6344[5], _0x6344[6], _0x6344[3], _0x6344[7], _0x6344[8], _0x6344[9], _0x6344[10]];
 $(document)[_0x760d[11]](function() {
@@ -15,18 +15,18 @@ var randomRelatedIndex;
 var showRelatedPost;
 (function(_0xe2cfx5, _0xe2cfx6, _0xe2cfx7) {
     var _0xe2cfx8 = {
-        widgetTitle: _0x6344[13],
-        widgetStyle: 1,
-        homePage: _0x6344[14],
-        numPosts: 7,
-        summaryLength: 370,
-        titleLength: _0x6344[15],
-        thumbnailSize: 72,
-        noImage: _0x6344[16],
-        containerId: _0x6344[17],
-        newTabLink: false,
-        moreText: _0x6344[18],
-        callBack: function() {}
+        widgetTitle: _0x6344[13]
+        , widgetStyle: 1
+        , homePage: _0x6344[14]
+        , numPosts: 7
+        , summaryLength: 370
+        , titleLength: _0x6344[15]
+        , thumbnailSize: 72
+        , noImage: _0x6344[16]
+        , containerId: _0x6344[17]
+        , newTabLink: false
+        , moreText: _0x6344[18]
+        , callBack: function() {}
     };
     var _0xe2cfx9;
     for (_0xe2cfx9 in relatedPostConfig) {
